@@ -1,0 +1,31 @@
+/* #text_id{
+    background-color: antiquewhite;
+    color: rgb(219, 219, 56);
+    font-size: 20px;
+}
+.text_class{
+    background: red;
+    color: antiquewhite;
+}
+
+.border{
+    font-size: 50px;
+    width: 150px;
+    background-color: pink;
+    border: 2px solid bisque;
+    border-radius: 20px;
+    text-align: center;
+} */
+table{
+    border-bottom: 2px solid rgb(131, 209, 123);
+    width: 400px;
+    border-radius: 10px 10px 0 0;
+    overflow: hidden;
+}
+.table{
+background-color: rgb(131, 209, 123);
+color: #fff;
+}
+.table_3{
+    color: rgb(131, 209, 123);
+}
