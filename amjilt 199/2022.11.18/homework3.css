@@ -1,0 +1,28 @@
+table{
+    width: 900px;
+    height: 300px;
+    border: 1px solid rgb(218, 216, 216);
+}
+
+.week-name th{
+    background-color: rgb(218, 216, 216);
+    color: #000;
+}
+.public{
+    background-color: rgb(24, 197, 250);
+}
+.Lane{
+    background-color: rgb(137, 223, 80);
+}
+.aquas{
+    background-color: rgb(214, 5, 85);
+}
+.aquac{
+    background-color: rgb(252, 133, 152);
+}
+.edu{
+    background-color: rgb(111, 250, 220);
+}
+.active{
+    background-color: orange;
+}
