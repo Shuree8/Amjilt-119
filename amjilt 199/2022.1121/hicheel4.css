@@ -1,0 +1,18 @@
+.container{
+    background-color: yellow;
+display: flex;
+justify-content: space-between;
+
+}
+.listone{
+    display: flex;
+    list-style: none;
+}
+.listtwo{
+    display: flex;
+    list-style: none;
+}
+.listone li a{
+    text-decoration: none;
+    color: black;
+}

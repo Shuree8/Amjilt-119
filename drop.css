@@ -1,0 +1,60 @@
+*{
+    margin: 0;
+}
+.flexbox{
+    display: flex;
+}
+.head{
+    display: flex;
+    justify-content: space-between;
+  
+
+    padding: 20px 5px;
+}
+.drop{
+    font-size: 20px;
+}
+.head-left{
+    margin: auto 0;
+}
+
+
+.head-left1{
+    display: flex;
+    list-style: none;
+   
+    
+}
+.head-right1{
+    display: flex;
+    list-style: none;
+  
+}
+.head-righta {
+    margin: auto 0;
+    display: flex;
+}
+.head-right1 li a{
+    text-decoration: none;
+    margin-left: 20px;
+    color: black;
+}
+.head-left1 li a{
+    text-decoration: none;
+    padding: 20px;
+    color: black;
+   
+}
+.right-get{
+    background-color: blue;
+    margin: 0 10px;
+
+     
+}
+.right-get a{
+    color: #fff;
+    text-decoration: none; 
+    margin: 10px;
+    
+}
+    

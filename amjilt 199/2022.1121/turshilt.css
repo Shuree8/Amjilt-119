@@ -1,0 +1,20 @@
+body{
+    background:rgb(133, 86, 243);
+}
+.container{
+    width: 500px;
+    margin: 0 auto;
+    background-color: #fff;
+}
+.container2{
+    margin: 20px;
+}
+button{
+   text-align: center;
+   color: aquamarine;
+   background-color: bisque;
+}
+.buttun{
+    width: 100%;
+    background-color: antiquewhite;
+}
