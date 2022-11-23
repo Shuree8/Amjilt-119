@@ -1,0 +1,44 @@
+body{
+
+}
+a{
+    text-decoration: none;
+    color: purple;
+}
+.container{
+    background-color: rgb(245, 243, 243);
+   
+}
+.container1{
+   width: 1280px;  
+   margin: 0 auto;
+}
+.container-head{
+    display: flex;
+   justify-content: space-between;
+
+}
+.container-head h3{
+    color: rgb(20, 20, 78);
+}
+.container-head a{
+    color: purple;
+    margin: auto 0;
+    text-decoration: none;
+}
+.container-body{
+    display: flex;
+     justify-content: space-between; 
+    margin-top: 5px;
+    
+}
+.container-body-first-img img{
+    border-radius: 5px;
+    width: 280px;
+    height: 180px;
+}
+.container-body1{
+    display: flex;
+    justify-content: space-between;
+    margin-top: 20px;
+}
