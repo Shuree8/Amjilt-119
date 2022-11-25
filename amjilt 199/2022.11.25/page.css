@@ -13,10 +13,11 @@ a{
 .page-head ul{
     display: flex;
     list-style-type: none;
+
     
 }
 .page-head ul li a{
-    margin: 10px ;
+    margin: 20px ;
     color: #fff;
 }
 .page-body{

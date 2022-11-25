@@ -1,0 +1,13 @@
+.container{
+    display: flex;
+}
+.container-left{
+    width: 500px;
+    height: 700px;
+    background-color: grey;
+}
+.container-right {
+    width: 500px;
+    height: 700px;
+    background-color: rgb(44, 43, 43);
+}
