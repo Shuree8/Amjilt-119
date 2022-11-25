@@ -1,0 +1,82 @@
+a{
+    text-decoration: none;
+}
+.page-head{
+    display: flex;
+    justify-content: space-between;
+    background-color: rgb(44, 44, 44);
+}
+.page-head-logo{
+    color: #fff;
+    font-size: 20px;
+}
+.page-head ul{
+    display: flex;
+    list-style-type: none;
+    
+}
+.page-head ul li a{
+    margin: 10px ;
+    color: #fff;
+}
+.page-body{
+    display: flex;
+    flex-direction: column;
+    background-image: url('../photo-1668742090395-dac02c56ea35.avif');
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    height: 600px;
+    justify-content: center;
+    align-items: center;
+}
+.page-body p{
+    padding: 50px;
+    color: #fff;
+}
+.page-body a{
+    display: inline;
+    background-color: rgb(206, 55, 173);
+    padding: 10px 30px;
+    border-radius: 5px;
+    color: #fff;
+}
+.page-body h1{
+    color: #fff;
+}
+
+
+.container-h1{
+    display: flex;
+    justify-content: center; 
+    color:rgb(206, 55, 173) ;
+}
+.card1{
+    display: flex;
+    justify-content: center;
+}
+.card{
+    display: flex;
+    flex-direction: column;
+    justify-content: center; 
+    width: 400px;
+    color: rgb(206, 55, 173);
+    text-align: center;
+    margin: 30px;
+}
+.card a{
+    color: #fff;
+    background-color: grey;
+    padding: 10px;
+}
+footer{
+    background-color:rgb(44, 44, 44) ;
+}
+footer p{
+    color: #fff;
+    text-align: center;
+    padding: 10px;
+}
+footer p i{
+    margin: 0 5px;
+}

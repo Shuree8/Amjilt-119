@@ -1,6 +1,4 @@
-body{
 
-}
 a{
     text-decoration: none;
     color: purple;
@@ -24,7 +22,6 @@ a{
     color: rgb(20, 20, 78);
 }
 .container-head a{
-   
     margin: auto 0;
    
 }
