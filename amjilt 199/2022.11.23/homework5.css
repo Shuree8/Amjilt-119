@@ -1,7 +1,6 @@
 body{
     background-color: rgb(26, 26, 31);
 }
-
 .container{
     display: flex;
     margin: 20px 10px; 
@@ -9,7 +8,6 @@ body{
     overflow: hidden;
     background-color: rgb(7, 7, 7);
 }
-
 .container-left{
     width: 58%;
     height: 100%;
@@ -93,13 +91,3 @@ body{
     font-size: 12px;
     margin: 25px 0 0 0 ;
 }
-
-
-
-
-
-
-
-
-
-
