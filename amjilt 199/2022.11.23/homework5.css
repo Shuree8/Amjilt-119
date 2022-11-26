@@ -1,13 +1,105 @@
+body{
+    background-color: rgb(26, 26, 31);
+}
+
 .container{
     display: flex;
+    margin: 20px 10px; 
+    border-radius: 20px;
+    overflow: hidden;
+    background-color: rgb(7, 7, 7);
 }
+
 .container-left{
-    width: 500px;
-    height: 700px;
-    background-color: grey;
+    width: 58%;
+    height: 100%;
+    background-color: rgb(136, 166, 172);
+}
+.container-left img{
+    width: 600px;
+    margin: 30px 150px ;
+    padding: 20px 100px 0;
+    
 }
 .container-right {
-    width: 500px;
-    height: 700px;
-    background-color: rgb(44, 43, 43);
+    width:42%;
+    margin: 70px 60px 0 ;
+    padding: 270px 0 0 0;
 }
+.container_right {
+    display: flex;
+    justify-content: center;
+}
+.container_right-text a{
+    text-decoration: none;
+    color: rgba(156, 24, 24, 0.9);
+}
+.container_right-text p{
+    text-align: center;
+    padding: 30px 20px 0 ;
+    font-size: 14px;
+    color: rgba(255, 255, 255, 0.7);
+    text-transform: uppercase;
+   
+}
+.container_right-buttun {
+    display: flex;
+}
+.container_right-buttun a {
+   
+    text-decoration: none;
+    color: rgba(255, 255, 255, 0.7);
+    padding: 10px;
+    font-size: 10px;
+   
+}
+.container_right-buttun  i{
+    font-size: 20px;
+    color: rgba(255, 255, 255, 0.8);
+}
+.container_right-buttun-google{
+    display: flex;
+    text-transform: uppercase;
+    border: 0px solid rgba(183, 183, 184, 0.7);
+    border-radius: 5px;
+    align-items: center;
+    padding: 8px 15px;
+    margin: 10px;   
+    background-color: rgb(52, 51, 58);
+   
+   
+}
+
+.container_right-img img{
+   width: 170px;
+    border-radius: 5px;
+    margin: 20px 30px 5px 30px;
+}
+.container-right-btn a{
+    display: flex;
+    color: #fff;
+    font-size: 20px;
+    text-decoration: none;
+    justify-content: center;
+    border: 1px solid rgba(115, 114, 146, 0.7);
+    padding: 10px 0;
+    color: rgba(97, 96, 134, 0.7);
+    border-radius: 5px;
+    margin: 230px 30px 0;
+}
+.container-right-footer{
+    text-align: center;
+    color: rgba(132, 131, 165, 0.6);
+    font-size: 12px;
+    margin: 25px 0 0 0 ;
+}
+
+
+
+
+
+
+
+
+
+

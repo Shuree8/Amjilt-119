@@ -6,6 +6,13 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Document</title>
     <link rel="stylesheet" href="homework5.css" />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.2.1/css/all.min.css"
+      integrity="sha512-MV7K8+y+gLIBoVD59lQIYicR65iaqukzvf/nwasF0nqhPay5w/9lJmVM2hMDcnK1OnMGCdVK+iQrJ7lzPJQd1w=="
+      crossorigin="anonymous"
+      referrerpolicy="no-referrer"
+    />
   </head>
   <body>
     <div class="container">
@@ -16,10 +23,23 @@
               тус нэвтрэх qr кодыг <a href="">анимакс</a> аппликейшнээр уншуулж
               нэвтрэх боломжтойв таньд аппликейшн байхгүй бол татна уу.
             </p>
-            <a href="">Татах боломжтой google play store</a>
-            <a href="">Татах боломжтой apple app store</a>
+            <div class="container_right-buttun">
+              <div class="container_right-buttun-google">
+                <i class="fa-brands fa-google-play"></i>
+                <a href="">Татах боломжтой <b>google play store</b></a>
+              </div>
+              <div class="container_right-buttun-google">
+                <i class="fa-brands fa-apple"></i>
+                <a href="">Татах боломжтой <b> apple app store</b></a>
+              </div>
+            </div>
           </div>
-          <div class="container_right-img"></div>
+          <div class="container_right-img">
+            <img
+              src="data:image/png;base64,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"
+              alt=""
+            />
+          </div>
         </div>
         <div class="container-right-btn">
           <a href="">Бүртгүүлэх</a>
@@ -29,7 +49,9 @@
         </div>
       </div>
 
-      <div class="container-left"></div>
+      <div class="container-left">
+        <img src="./main-poster-high-quality-scaled.jpg" alt="" />
+      </div>
     </div>
   </body>
 </html>
