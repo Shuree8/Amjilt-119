@@ -17,7 +17,6 @@ body{
     width: 600px;
     margin: 30px 150px ;
     padding: 20px 100px 0;
-    
 }
 .container-right {
     width:42%;
@@ -38,18 +37,15 @@ body{
     font-size: 14px;
     color: rgba(255, 255, 255, 0.7);
     text-transform: uppercase;
-   
 }
 .container_right-buttun {
     display: flex;
 }
 .container_right-buttun a {
-   
     text-decoration: none;
     color: rgba(255, 255, 255, 0.7);
     padding: 10px;
     font-size: 10px;
-   
 }
 .container_right-buttun  i{
     font-size: 20px;
@@ -64,12 +60,10 @@ body{
     padding: 8px 15px;
     margin: 10px;   
     background-color: rgb(52, 51, 58);
-   
-   
 }
 
 .container_right-img img{
-   width: 170px;
+    width: 170px;
     border-radius: 5px;
     margin: 20px 30px 5px 30px;
 }
