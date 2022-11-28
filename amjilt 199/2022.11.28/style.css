@@ -1,0 +1,23 @@
+.navbar{
+    display: flex;
+    justify-content: space-between;
+    list-style-type: none;
+}
+.nav-left ul{
+    list-style-type: none;
+    color: rgb(230, 210, 101);
+
+}
+
+.nav-right ul{
+    list-style-type: none;
+    display: flex;
+}
+.nav-right ul li{
+    margin-left: 10px;
+
+}
+.nav-right ul li a{
+    text-decoration: none;
+    color: #000;
+}
