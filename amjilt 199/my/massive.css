@@ -1,0 +1,28 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body{
+    background-image: url("photo-1669752012473-a12e9a47883d.avif");
+        background-repeat: no-repeat;
+        background-size: cover;
+        background-attachment: fixed;
+}
+.intro{
+    height: 10000px;
+    padding: 300px 0 0 0 ;
+    text-align: center;
+    color: #fff;
+    /* /* transform: translateY(2rem); */
+    transition: ;
+} 
+.intro h1{
+    font-size: 5rem;
+    line-height: 1;
+    font-family: "Source Sans Pro", Helvetica, sans-serif;
+    font-weight: 900;
+    letter-spacing: 0.075em;
+    text-transform: uppercase;
+    
+}
