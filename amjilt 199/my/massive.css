@@ -2,27 +2,136 @@
     margin: 0;
     padding: 0;
     box-sizing: border-box;
+    
 }
 body{
     background-image: url("photo-1669752012473-a12e9a47883d.avif");
         background-repeat: no-repeat;
         background-size: cover;
         background-attachment: fixed;
+        font-family: "Merriweather", Georgia, serif;
+        font-weight: 300;
+        font-size: 1rem;
+        line-height: 2.375;
+}
+a{
+text-decoration: none;
+
+}
+h1{
+    font-family: "Source Sans Pro", Helvetica, sans-serif;
 }
 .intro{
-    height: 10000px;
-    padding: 300px 0 0 0 ;
+    padding: 250px 0 0 0 ;
     text-align: center;
     color: #fff;
-    /* /* transform: translateY(2rem); */
-    transition: ;
 } 
 .intro h1{
-    font-size: 5rem;
+    font-size: 6rem;
     line-height: 1;
-    font-family: "Source Sans Pro", Helvetica, sans-serif;
     font-weight: 900;
     letter-spacing: 0.075em;
     text-transform: uppercase;
     
+}
+.intro p {
+    font-size: 28px;
+    font-style: italic;
+    margin-top: 60px;
+    line-height: 60px;
+    color: #fff;
+}
+.intro p a {
+    color: #fff;
+    font-style: italic;
+}
+.logo{
+    
+    text-align: center;
+    color: #fff;
+    text-transform: uppercase;
+}
+.logo a{
+    margin-top: 100px;
+    border: 5px solid #fff;
+    padding: 14px 20px;
+    font-size: 40px;
+    font-weight: 700;
+    color: #fff;
+}
+.logo :hover{
+    color: rgb(85, 85, 250);
+}
+.container{
+    width: 80%;
+    background-color: #fff;
+    margin: 0 auto;
+}
+.head{
+    background-color: rgb(138, 130, 130);
+    display: flex;
+    justify-content: space-between;
+    position: relative;
+}
+.head-left{
+    margin: 20px 0px;
+}
+.head-left a{
+    padding: 21px 20px;
+    color: #fff;
+
+}
+.head-left a:hover{
+    background-color: rgb(75, 71, 71);
+
+}
+.head-right{
+    width: 100px;
+    height: 50px;
+    background-color: antiquewhite;
+    color: #fff;
+}
+.head a {
+    color: #fff;
+}
+.first-section{
+    width: 80%;
+    margin: 0 auto;
+    text-align: center;
+    padding: 100px 0;
+}
+.first-section span{
+    padding: 10px 0 100px 0;
+    font-style: italic;
+}
+.first-section span::after{
+    content: '';
+}
+.first-section h1{
+    margin: 50px 0;
+    font-weight: 800;
+    font-size: 70px;
+    letter-spacing: 5px;
+    padding: 0 150px;
+}
+.first-section p{
+    line-height: 50px;
+    padding: 0 280px;
+    margin-bottom: 50px;
+    font-size: 20px;
+    font-style: italic;
+    font-family: "Merriweather", Georgia, serif;
+    font-weight: 100;
+}
+.first-section img{
+    width: 1210px;
+    margin-bottom: 100px;
+   
+}
+.first-section a{
+    font-size: 18px;
+    padding: 20px 60px;
+    border: 2px solid #000;
+    color: #000;
+    font-weight: 700;
 }
