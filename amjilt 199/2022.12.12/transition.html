@@ -1,0 +1,76 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+    <style>
+      /* .box {
+            background-color: yellow;
+            height: 200px;
+            width: 200px;
+            transition-property: all;
+            transition-duration: 3s;
+            transition: all 3s ease-in-out;
+            background-image: url('https://images.unsplash.com/photo-1665873183648-649ad63e4df4?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=387&q=80');
+            background-size: 100%;
+         } */
+      .box:hover {
+        background-color: lime;
+        /* height: 300px; */
+        /* background-size: 120%; */
+        /*  ergvvleh */
+        transform: rotate(-80deg);
+        /* tomruulj jijig bolgono */
+        transform: scale(-2);
+        transform: skew(-40deg);
+        /* X, Y */
+        transform: translateY(20px);
+        transform: translateX(200px);
+      }
+      .wrapper {
+        background-color: yellow;
+        animation: box1 3s infinite ease-in-out;
+      }
+      /* 
+         @keyframes box1 {
+            100% {
+                 transform: translateY(100px);
+            }
+         } */
+
+      .text {
+        font-size: 40px;
+        transition: all 3s ease-in-out;
+      }
+
+      /* .text:hover {
+             transform: translateX(-300px);
+         } */
+      .text div {
+        display: none;
+        visibility: hidden;
+      }
+
+      .text:hover > div {
+        display: block;
+        visibility: visible;
+      }
+    </style>
+  </head>
+  <body>
+    <!-- Transition -->
+    <div class="box"></div>
+    <div class="wrapper">
+      <div>item</div>
+      <div>item</div>
+      <div>item</div>
+      <div>item</div>
+    </div>
+    <div class="text">
+      hfksdjhfjsdhj
+      <div>nuugdah</div>
+    </div>
+  </body>
+</html>

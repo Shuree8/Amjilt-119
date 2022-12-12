@@ -1,0 +1,51 @@
+.box {
+background-color: yellow;
+height: 200px;
+width: 200px;
+/* animation-name: animation1;
+        animation-duration: 3s;
+        animation-iteration-count: infinite;
+        animation-timing-function: ease-in ; */
+animation: animation1 5s infinite ease-in-out alternate-reverse;
+animation: animation2 15s infinite ease-in-out alternate-reverse;
+}
+
+/* @keyframes animation1 {
+        to {
+            background-color: blue;
+            height: 400px;
+            position: relative;
+            left: 300px
+        }
+    } */
+
+@keyframes animation2 {
+    25% {
+        background-color: lightblue;
+        border-radius: 50%;
+        position: relative;
+        left: 200px;
+    }
+
+    50% {
+        background-color: blueviolet;
+        border-top-left-radius: 50%;
+        width: 300px;
+        position: relative;
+        left: 200px;
+        top: 200px;
+    }
+
+    75% {
+        border-radius: 100%;
+        background-image: url("https://images.unsplash.com/photo-1661956602944-249bcd04b63f?ixlib=rb-1.2.1&ixid=MnwxMjA3fDF8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=870&q=80");
+        background-size: cover;
+        background-position: center;
+        position: relative;
+        top: 200px;
+    }
+
+    100% {
+        background-color: brown;
+    }
+}

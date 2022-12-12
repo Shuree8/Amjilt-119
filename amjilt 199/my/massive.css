@@ -25,6 +25,7 @@ h1{
     padding: 250px 0 0 0 ;
     text-align: center;
     color: #fff;
+
 } 
 .intro h1{
     font-size: 6rem;
@@ -45,20 +46,29 @@ h1{
     color: #fff;
     font-style: italic;
 }
+.intro>p>a:hover{
+    color: #18bfef;
+}
 .fa-solid{
     color: #fff;
     font-size: 28px;
     margin-top: 50px;
-
+    border: 2px solid #fff;
+    padding: 15px 20px;
+    border-radius: 50%;
 }
+.fa-solid:hover{
+    color: #18bfef;
+    border: 2px solid #18bfef;
+}
+
 .logo{
-    
     text-align: center;
     color: #fff;
     text-transform: uppercase;
 }
 .logo a{
-    margin: 100px 0;
+    margin: 100px 0px;
     border: 5px solid #fff;
     padding: 14px 20px;
     font-size: 40px;
@@ -66,19 +76,22 @@ h1{
     color: #fff;
 }
 .logo :hover{
-    color: rgb(85, 85, 250);
-    border: 5px solid rgb(85, 85, 250);
+    color: #18bfef;
+    border: 5px solid #18bfef;
 }
 .container{
     width: 80%;
     background-color: #fff;
     margin: 100px auto 0;
+    
 }
+
 .head{
-    background-color: #dbd1d1cc;
-    background-color: ;
+    background-color: rgba(0, 0, 0, .4);
     display: flex;
     justify-content: space-between;
+    width: 80%;
+    margin: 0 auto;
 }
 .head-left{
     margin: 20px 0px;
@@ -190,7 +203,7 @@ h1{
     text-transform: uppercase;
 }
 .third-section{
-    margin-bottom: 100px;
+    /* margin-bottom: 100px; */
 }
 .page-number{
     text-align: center;
@@ -213,7 +226,7 @@ h1{
     background-color: #eee;
     /* padding-top: 50px; */
     padding-left: 110px;
-    padding-right: 110px;
+    /* padding-right: 110px; */
 }
 .form-left{
     width: 50%;
@@ -236,20 +249,53 @@ h1{
     margin: 0 0 110px 0;
 }
 .form-right{
-    border: 1px solid rgb(150, 147, 147);
+    border-left: 1px solid rgb(150, 147, 147);
+    
 }
 .flx{
     display: flex;
     border-bottom: 2px solid grey;
-    padding: 50px 0 50px 50px;
+    padding: 50px 0 50px 100px;
+}
+button{
+    padding: 20px 25px;
+    border: 1px solid #000;
+    text-transform: uppercase;
+    color: grey;
+    font-weight: 600;
+    /* font-size: 20px; */
 }
 .form-right h1{
     font-size: 20px;
     /* width: 30px; */
 }
-.form-right span,p,a{
-    padding-left: 50px;
+.fa-brands {
+    font-size: 28px;
+    margin-right: 25px;
+    border: 1px solid grey;
+    border-radius: 50%;
+    padding: 10px;
+}
+.pad{
+    padding: 0 200px 0 100px;
+    color: grey;
 }
 .form-right a{
+    text-decoration: dotted;
+}
+
+.footer, span>a{
+    font-family: "Source Sans Pro", Helvetica, sans-serif;
+    text-align: center;
+    text-transform: uppercase;
     color: grey;
+    padding-top: 80px;
+    padding-bottom: 150px;
+    /* font-size: 14px; */
+    font-weight: 900;
+}
+.line::after{
+    content: '|';
+    margin: 0 10px;
+
 }
