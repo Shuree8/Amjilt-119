@@ -88,3 +88,28 @@ h1,h2,h3,h4,h5,h6{
     border: 2px solid #e2e2e2 ;
     border-radius: 50%;
 }
+.list-article-definition h3{
+    font-size: 28px ;
+    font-weight: 600;
+
+}
+.items{
+    margin: 30px 0;
+}
+.items h4{
+    text-transform: capitalize;
+    font-family: none;
+    font-size: 30px;
+    font-weight: 500;
+}
+.items p{
+    font-size: 24px;
+    padding: 20px 40px;
+}
+.list-article-actions {
+    margin: 20px 0;
+}
+.list-article-actions h3{
+    font-size: 28px;
+    font-weight: 600;
+}
