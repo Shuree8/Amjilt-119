@@ -32,10 +32,59 @@ h1,h2,h3,h4,h5,h6{
     font-weight: 800;
 }
 
-
 .paragraph-article{
-    margin: 30px 0;
+    padding: 50px 0;
 }
 .paragraph_article{
     padding: 20px 0;
+}
+.paragraph_article p{
+    font-size: 24px;
+}
+
+
+.list-article_lists{
+    /* padding: 15px; */
+    display: flex;
+}
+.list-article_lists h3{
+    font-size: 25px;
+    font-weight: 700;
+}
+.list-article-list-left ul{
+    padding: 20px 20px;
+}
+.list-article-list-left ul li{
+    font-size: 24px;
+
+}
+.list-article-list-right{
+    /* width: 50%; */
+    margin-left: 300px;
+}
+.list-article-list-right ol{
+    padding: 20px 20px;
+}
+.list-article-list-right ol li{
+    font-size: 24px;
+}
+.list-right-icon-none{
+    margin: 30px 0;
+}
+.list-right-icon-none a i{
+    font-size: 25px;
+    color: #000;
+    padding: 10px;
+    margin: 10px;
+}
+.list-right-icon-border{
+    margin: 30px 0;
+}
+.list-right-icon-border a i{
+    font-size: 20px;
+    color: #000;
+    margin: 10px;
+    padding: 10px;
+    border: 2px solid #e2e2e2 ;
+    border-radius: 50%;
 }
