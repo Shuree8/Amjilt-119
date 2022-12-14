@@ -1,0 +1,41 @@
+
+.container_section{
+    width: 80%;
+    margin: 0 auto;
+} 
+.head-title h1 {
+    font-weight: 800;
+    font-size: 70px;
+    letter-spacing: 5px;
+    line-height: 100px;
+    text-transform: uppercase;
+    text-align: center;
+    padding: 70px 300px;
+}
+.text-article h1{
+    text-transform: uppercase;
+    font-weight: 700;
+    font-size: 34px;
+}
+.text-article p{
+    text-align: start;
+    font-size: 24px;
+    padding-bottom: 50px;
+}
+.heading-article{
+    padding: 50px 0;
+    line-height: 50px;
+}
+h1,h2,h3,h4,h5,h6{
+    text-transform: uppercase;
+    font-family: "Source Sans Pro", Helvetica, sans-serif;
+    font-weight: 800;
+}
+
+
+.paragraph-article{
+    margin: 30px 0;
+}
+.paragraph_article{
+    padding: 20px 0;
+}
