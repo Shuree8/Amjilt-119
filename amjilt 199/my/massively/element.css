@@ -266,8 +266,16 @@ td{
     font-size: 20px;
     margin: 0 300px 0 5px;
 }
+.form-radio form input{
+    width: 25px ;
+    height: 25px;
+}
 .form-checkbox {
     margin: 30px 0;
+}
+.form-checkbox > form >  input{
+    height: 20px;
+    width: 20px;
 }
 .form-checkbox form label{
     font-size: 20px;
@@ -288,11 +296,70 @@ textarea::placeholder{
 }
 /* End form */ 
 /* Start image */
-.first-section img {
+.image-article-big img {
     width: 100%;
-    margin-bottom: 100px;
+    margin: 100px 0;
 }
-.first-section img:hover {
+.image-article-big img:hover {
     transition: all .5s;
     transform: scale(1.05);
+}
+.image-article-small{
+    margin-bottom:30px;
+    display: grid;
+    gap: 20px;
+    grid-template-columns: 30% 30% 30%;
+}
+.image-article-small img{
+    max-width: 370px;
+}
+.image-left{
+    position: relative;
+}
+.image-left img{
+    margin: 0 20px 0 0;
+    padding: 20px 0 0 0;
+    /* width: 300px ; */
+    /* height: 200px; */
+    display: block;
+    float: left;
+}
+.image-left p {
+    display: inline;
+    font-size: 20px;  
+}
+.image-right{
+    margin: 50px 0;
+}
+.image-right img {
+    margin: 0 0 0 20px;
+    padding: 20px 0 0 0;
+    /* width: 300px ; */
+    /* height: 200px; */
+    display: block;
+    float: right;
+}
+
+.image-right p {
+    display: inline;
+    font-size: 20px;
+}
+.box-section p{
+    font-size: 24px;
+    margin: 30px 0;
+    padding: 20px 30px;
+    border: 1px solid #e2e2e2;
+    text-align: justify;
+    color: grey;
+
+}
+.last-section {
+    margin-top: 50px;
+}
+.last-article{
+    border: 1px solid #e2e2e2;
+    background-color: #eee;
+    padding: 20px 50px;
+    margin: 30px 0 100px 0;
+    font-size: 20px;
 }
