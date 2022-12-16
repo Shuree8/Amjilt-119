@@ -239,3 +239,60 @@ td{
         letter-spacing: 1px;
         /* font-size: larger; */
 }
+/* end button */
+
+/* Start form */
+.form-text form input{
+    width: 30vw;
+    height: 50px;
+    margin-right: 30px;
+    border-color: #eee;
+}
+.form-text ::placeholder{
+    font-size: 20px;
+    padding: 20px 15px 15px;
+}
+.form-select select {
+    width: 65vw;
+    border-color: #eee;
+    height: 50px;
+    margin: 30px 0
+}
+.form-select select option{
+    font-size: 30px;
+    padding: 20px 15px 15px;
+}
+.form-radio form label{
+    font-size: 20px;
+    margin: 0 300px 0 5px;
+}
+.form-checkbox {
+    margin: 30px 0;
+}
+.form-checkbox form label{
+    font-size: 20px;
+    margin: 0 400px 0 10px;
+}
+textarea::placeholder{
+    font-size: 20px ;
+    padding: 30px 0 0 20px;
+}
+.form-button{
+    margin-bottom: 50px;
+    margin-top: 30px;
+}
+.btn2{
+    border: 2px solid #212931;
+    color: #212931;
+    margin-left: 20px;
+}
+/* End form */ 
+/* Start image */
+.first-section img {
+    width: 100%;
+    margin-bottom: 100px;
+}
+.first-section img:hover {
+    transition: all .5s;
+    transform: scale(1.05);
+}
