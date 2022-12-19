@@ -134,6 +134,10 @@ h1,h2,h3,h4,h5,h6{
     margin-top: 50px;
     margin-bottom: 50px;
 }
+.actions-primary:hover{
+    background-color: #18bfef;
+    color: #fff;
+}
 .actions-primary{
     background-color: #212931;
     color: #fff ;
@@ -155,6 +159,10 @@ h1,h2,h3,h4,h5,h6{
     border: 2px solid #212931;
     margin-right: 20px;
 }
+.actions-default:hover{
+    border: 2px solid #18bfef;
+    color: #18bfef;
+}
 .noname{
     padding: 12px 25px;
         text-transform: uppercase;
@@ -165,9 +173,17 @@ h1,h2,h3,h4,h5,h6{
         border: 2px solid #212931;
         margin-right: 20px;
 }
+.noname:hover{
+    border: 2px solid #18bfef ;
+    color: #18bfef;
+}
 .btn{
     color: #fff;
     background-color: #212931;
+}
+.btn:hover{
+    background-color: #18bfef;
+    color: #fff;
 }
 .space-m{
     margin-left: 50%;
@@ -295,6 +311,7 @@ textarea::placeholder{
     margin-left: 20px;
 }
 /* End form */ 
+
 /* Start image */
 .image-article-big img {
     width: 100%;
@@ -344,6 +361,7 @@ textarea::placeholder{
     display: inline;
     font-size: 20px;
 }
+/* end image */
 .box-section p{
     font-size: 24px;
     margin: 30px 0;
